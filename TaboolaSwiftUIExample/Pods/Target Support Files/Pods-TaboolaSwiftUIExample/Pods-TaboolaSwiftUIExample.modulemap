@@ -1,0 +1,6 @@
+framework module Pods_TaboolaSwiftUIExample {
+  umbrella header "Pods-TaboolaSwiftUIExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
