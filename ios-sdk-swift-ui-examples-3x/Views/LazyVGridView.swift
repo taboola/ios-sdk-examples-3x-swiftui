@@ -1,0 +1,56 @@
+//
+//  LazyVGridView.swift
+//  TaboolaSwiftUI
+//
+//  Copyright © 2022 Taboola. All rights reserved.
+//
+
+import SwiftUI
+
+struct LazyVGridView: View {
+
+    let colors: [Color] = [.red, .green, .yellow, .blue]
+    var columns: [GridItem] = Array(repeating: .init(.flexible(), alignment: .center), count: 1)
+    let title: String
+    let pageWrapper = TBLClassicPageWrapper(pageType: Constants.article,
+                                            pageUrl: Constants.pageUrl)
+    
+    @State var topHeight: CGFloat = 0
+    @State var feedHeight: CGFloat = 0
+
+    var body: some View {
+        ScrollView {
+            LazyVGrid(columns: columns, spacing: 10) {
+                ForEach(0...2, id: \.self) { index in
+                    switch index {
+                    case 0:
+                        ClassicUnitSwiftUI(pageWrapper: pageWrapper,
+                                           placement: Constants.widgetPlacement,
+                                           mode: Constants.mode,
+                                           height: $topHeight).frame(height:topHeight)
+                            .background(colors[index % colors.count])
+                            .cornerRadius(8)
+                    case 1:
+                        Text("Cell \(index)")
+                            .frame(width: 110, height: 500)
+                            .background(colors[index % colors.count])
+                            .cornerRadius(8)
+                    default:
+                        ClassicUnitSwiftUI(pageWrapper: pageWrapper,
+                                           placement: Constants.feedPlacement,
+                                           mode: Constants.mode,
+                                           height: $feedHeight).frame(height:feedHeight)
+                            .background(colors[index % colors.count])
+                            .cornerRadius(8)
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct LazyVGridView_Previews: PreviewProvider {
+    static var previews: some View {
+        LazyVGridView(title: "LazyVGridView")
+    }
+}
