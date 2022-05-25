@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FEC6D95A55E98FD2D8E9F87 /* Pods_ios_sdk_swift_ui_examples_3x.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D398B6188237EBDB7F3F685 /* Pods_ios_sdk_swift_ui_examples_3x.framework */; };
 		D80E14A4283B8BD40014FD09 /* TaboolaSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14A3283B8BD40014FD09 /* TaboolaSwiftUIApp.swift */; };
 		D80E14A8283B8BD50014FD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80E14A7283B8BD50014FD09 /* Assets.xcassets */; };
 		D80E14AB283B8BD50014FD09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80E14AA283B8BD50014FD09 /* Preview Assets.xcassets */; };
@@ -26,11 +25,10 @@
 		D80E14CF283B8C8E0014FD09 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CB283B8C8E0014FD09 /* Constans.swift */; };
 		D80E14D0283B8C8E0014FD09 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CC283B8C8E0014FD09 /* LazyView.swift */; };
 		D80E14D1283B8C8E0014FD09 /* WeakArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */; };
+		D8832514283E35750072359C /* TaboolaSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D8832513283E35750072359C /* TaboolaSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D398B6188237EBDB7F3F685 /* Pods_ios_sdk_swift_ui_examples_3x.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_sdk_swift_ui_examples_3x.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0FFCA01B22EF49BB1841EFB /* Pods-ios-sdk-swift-ui-examples-3x.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-swift-ui-examples-3x.debug.xcconfig"; path = "Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x.debug.xcconfig"; sourceTree = "<group>"; };
 		D80E14A0283B8BD40014FD09 /* ios-sdk-swift-ui-examples-3x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sdk-swift-ui-examples-3x.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80E14A3283B8BD40014FD09 /* TaboolaSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaboolaSwiftUIApp.swift; sourceTree = "<group>"; };
 		D80E14A7283B8BD50014FD09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +48,6 @@
 		D80E14CB283B8C8E0014FD09 /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		D80E14CC283B8C8E0014FD09 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakArrayWrapper.swift; sourceTree = "<group>"; };
-		FCC84FAC3B706CBC61112516 /* Pods-ios-sdk-swift-ui-examples-3x.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-swift-ui-examples-3x.release.xcconfig"; path = "Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,29 +55,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FEC6D95A55E98FD2D8E9F87 /* Pods_ios_sdk_swift_ui_examples_3x.framework in Frameworks */,
+				D8832514283E35750072359C /* TaboolaSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93E533AD526C99AEAACF239A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0FFCA01B22EF49BB1841EFB /* Pods-ios-sdk-swift-ui-examples-3x.debug.xcconfig */,
-				FCC84FAC3B706CBC61112516 /* Pods-ios-sdk-swift-ui-examples-3x.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		D80E1497283B8BD40014FD09 = {
 			isa = PBXGroup;
 			children = (
 				D80E14A2283B8BD40014FD09 /* ios-sdk-swift-ui-examples-3x */,
 				D80E14A1283B8BD40014FD09 /* Products */,
-				93E533AD526C99AEAACF239A /* Pods */,
-				DF4F6A8C5E7E366F470C8D4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,14 +135,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		DF4F6A8C5E7E366F470C8D4C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3D398B6188237EBDB7F3F685 /* Pods_ios_sdk_swift_ui_examples_3x.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,18 +142,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D80E14AE283B8BD50014FD09 /* Build configuration list for PBXNativeTarget "ios-sdk-swift-ui-examples-3x" */;
 			buildPhases = (
-				D14F597E41A2C98B7F25A939 /* [CP] Check Pods Manifest.lock */,
 				D80E149C283B8BD40014FD09 /* Sources */,
 				D80E149D283B8BD40014FD09 /* Frameworks */,
 				D80E149E283B8BD40014FD09 /* Resources */,
-				66EB763C21EC50FAF16E1B4A /* [CP] Embed Pods Frameworks */,
-				D239A33E8F0515162B3FE720 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "ios-sdk-swift-ui-examples-3x";
+			packageProductDependencies = (
+				D8832513283E35750072359C /* TaboolaSDK */,
+			);
 			productName = "ios-sdk-swift-ui-examples-3x";
 			productReference = D80E14A0283B8BD40014FD09 /* ios-sdk-swift-ui-examples-3x.app */;
 			productType = "com.apple.product-type.application";
@@ -204,6 +182,9 @@
 				Base,
 			);
 			mainGroup = D80E1497283B8BD40014FD09;
+			packageReferences = (
+				D8832512283E35750072359C /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */,
+			);
 			productRefGroup = D80E14A1283B8BD40014FD09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,65 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		66EB763C21EC50FAF16E1B4A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D14F597E41A2C98B7F25A939 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-sdk-swift-ui-examples-3x-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D239A33E8F0515162B3FE720 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-swift-ui-examples-3x/Pods-ios-sdk-swift-ui-examples-3x-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D80E149C283B8BD40014FD09 /* Sources */ = {
@@ -427,7 +349,6 @@
 		};
 		D80E14AF283B8BD50014FD09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0FFCA01B22EF49BB1841EFB /* Pods-ios-sdk-swift-ui-examples-3x.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,7 +379,6 @@
 		};
 		D80E14B0283B8BD50014FD09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC84FAC3B706CBC61112516 /* Pods-ios-sdk-swift-ui-examples-3x.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -509,6 +429,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8832512283E35750072359C /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/taboola/taboola-spm-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8832513283E35750072359C /* TaboolaSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8832512283E35750072359C /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */;
+			productName = TaboolaSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D80E1498283B8BD40014FD09 /* Project object */;
 }
