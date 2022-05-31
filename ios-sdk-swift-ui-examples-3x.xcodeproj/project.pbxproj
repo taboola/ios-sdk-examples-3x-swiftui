@@ -25,7 +25,7 @@
 		D80E14CF283B8C8E0014FD09 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CB283B8C8E0014FD09 /* Constans.swift */; };
 		D80E14D0283B8C8E0014FD09 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CC283B8C8E0014FD09 /* LazyView.swift */; };
 		D80E14D1283B8C8E0014FD09 /* WeakArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */; };
-		D8832514283E35750072359C /* TaboolaSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D8832513283E35750072359C /* TaboolaSDK */; };
+		D88DCBFF28461E2B00C97E05 /* TaboolaSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D88DCBFE28461E2B00C97E05 /* TaboolaSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8832514283E35750072359C /* TaboolaSDK in Frameworks */,
+				D88DCBFF28461E2B00C97E05 /* TaboolaSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 			);
 			name = "ios-sdk-swift-ui-examples-3x";
 			packageProductDependencies = (
-				D8832513283E35750072359C /* TaboolaSDK */,
+				D88DCBFE28461E2B00C97E05 /* TaboolaSDK */,
 			);
 			productName = "ios-sdk-swift-ui-examples-3x";
 			productReference = D80E14A0283B8BD40014FD09 /* ios-sdk-swift-ui-examples-3x.app */;
@@ -183,7 +183,7 @@
 			);
 			mainGroup = D80E1497283B8BD40014FD09;
 			packageReferences = (
-				D8832512283E35750072359C /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */,
+				D88DCBFD28461E2B00C97E05 /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */,
 			);
 			productRefGroup = D80E14A1283B8BD40014FD09 /* Products */;
 			projectDirPath = "";
@@ -431,20 +431,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D8832512283E35750072359C /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */ = {
+		D88DCBFD28461E2B00C97E05 /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/taboola/taboola-spm-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.6.3;
+				kind = exactVersion;
+				version = 3.6.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D8832513283E35750072359C /* TaboolaSDK */ = {
+		D88DCBFE28461E2B00C97E05 /* TaboolaSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D8832512283E35750072359C /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */;
+			package = D88DCBFD28461E2B00C97E05 /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */;
 			productName = TaboolaSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

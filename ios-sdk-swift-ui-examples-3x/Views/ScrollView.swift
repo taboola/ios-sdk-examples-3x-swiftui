@@ -10,8 +10,8 @@ import SwiftUI
 struct ScrollViewView: View {
     
     let title: String
-    var pageWrapper = TBLClassicPageWrapper(pageType: Constants.article,
-                                            pageUrl: Constants.pageUrl)
+    var pageWrapper = ClassicPageWrapper(pageType: Constants.article,
+                                         pageUrl: Constants.pageUrl)
     
     @State var topHeight: CGFloat = 0
     @State var feedHeight: CGFloat = 0

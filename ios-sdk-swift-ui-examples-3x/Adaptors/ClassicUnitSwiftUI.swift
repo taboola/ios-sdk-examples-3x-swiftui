@@ -14,7 +14,7 @@ protocol ClassicUnitProvidable {
 
 struct ClassicUnitSwiftUI: UIViewRepresentable {
     
-    let pageWrapper: TBLClassicPageWrapper
+    let pageWrapper: ClassicPageWrapper
     let placement: String
     let mode: String
     

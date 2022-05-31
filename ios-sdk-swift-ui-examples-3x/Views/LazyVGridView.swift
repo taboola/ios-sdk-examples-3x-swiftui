@@ -12,8 +12,8 @@ struct LazyVGridView: View {
     let colors: [Color] = [.red, .green, .yellow, .blue]
     var columns: [GridItem] = Array(repeating: .init(.flexible(), alignment: .center), count: 1)
     let title: String
-    let pageWrapper = TBLClassicPageWrapper(pageType: Constants.article,
-                                            pageUrl: Constants.pageUrl)
+    let pageWrapper = ClassicPageWrapper(pageType: Constants.article,
+                                         pageUrl: Constants.pageUrl)
     
     @State var topHeight: CGFloat = 0
     @State var feedHeight: CGFloat = 0

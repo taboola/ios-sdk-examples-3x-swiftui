@@ -1,5 +1,5 @@
 //
-//  TBLClassicPageWrapper.swift
+//  ClassicPageWrapper.swift
 //  TaboolaSwiftUI
 //
 //  Copyright © 2022 Taboola. All rights reserved.
@@ -11,7 +11,7 @@ protocol ClassicPageWrapperDelegate: AnyObject {
     func didLoadWithHeight(height: CGFloat)
 }
 
-class TBLClassicPageWrapper: NSObject, TBLClassicPageDelegate {
+class ClassicPageWrapper: NSObject, TBLClassicPageDelegate {
         
     var page: TBLClassicPage!
     @Weak var delegates: [Coordinator]
