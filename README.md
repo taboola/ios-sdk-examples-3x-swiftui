@@ -2,10 +2,6 @@
 
 Taboola SDK allows publishers to display Taboola's Widgets and Feed within their iOS apps.
 
-## WARNING
-
-Full support of SwiftUI support will be part of the 3.6.4 release. Temporary, you can utilize 3.6.3 for testing purposes but there are several memory leaks in Taboola SDK that shouldn't be part of your production code.
-
 ## Getting Started
 To get started with the Taboola iOS SDK, please follow this link [iOS SDK documentation](https://sdk.taboola.com/taboolasdk/docs/taboola-ios-sdk-install?ref=github).
 SwiftUI provides a new way of composing layout by following declaritive approach. This tutorial encompasses basics UI components like ListView, ScrollView, VStackView etc. with Taboola placements.

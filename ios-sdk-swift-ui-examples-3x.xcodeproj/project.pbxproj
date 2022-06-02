@@ -435,8 +435,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/taboola/taboola-spm-ios-sdk";
 			requirement = {
-				kind = exactVersion;
-				version = 3.6.3;
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
