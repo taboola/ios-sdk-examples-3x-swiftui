@@ -1,5 +1,5 @@
 //
-//  ScrollView.swift
+//  ClassicScrollView.swift
 //  TaboolaSwiftUI
 //
 //  Copyright © 2022 Taboola. All rights reserved.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScrollViewView: View {
+struct ClassicScrollView: View {
     
     let title: String
     var pageWrapper = ClassicPageWrapper(pageType: Constants.article,
@@ -29,12 +29,12 @@ struct ScrollViewView: View {
                                mode: Constants.mode,
                                height: $feedHeight).frame(height: feedHeight, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         }
-        .navigationBarTitle(title)
+        .navigationBarTitle(title, displayMode: .inline)
     }
 }
 
-struct ScrollViewView_Previews: PreviewProvider {
+struct ClassicScrollView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrollViewView(title: "ScrollView")
+        ClassicScrollView(title: "ScrollView")
     }
 }

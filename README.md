@@ -7,15 +7,6 @@ To get started with the Taboola iOS SDK, please follow this link [iOS SDK docume
 SwiftUI provides a new way of composing layout by following declaritive approach. This tutorial encompasses basics UI components like ListView, ScrollView, VStackView etc. with Taboola placements.
 Also, we embedded several essential components which help combine Taboola placement and SwiftUI in an easy way with less effort (see **Adaptors** and **Helpers** folder in the project directory).
 
-## Important!
-We are in the process of working out the following outstanding issues with Taboola SDK and the SwiftUI integration
-
-* **TabView** with page style breaks the layout upon orientation change;
-* The `makeUIView(context:)` function is called several times in **LazyVStack**, **LazyVGrid**.
-* Some viewability measurements fired inconsistently 
-
-Please follow our documention, change log and this project for more updates. 
-
 ## Change log
 Taboola iOS SDK [change log](https://developers.taboola.com/taboolasdk/docs/ios-changelog).
 

@@ -1,5 +1,5 @@
 //
-//  ListView.swift
+//  ClassicList.swift
 //  TaboolaSwiftUI
 //
 //  Copyright © 2022 Taboola. All rights reserved.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListView: View {
+struct ClassicList: View {
     
     let title: String
     let pageWrapper = ClassicPageWrapper(pageType: Constants.article,
@@ -29,12 +29,12 @@ struct ListView: View {
                                mode: Constants.mode,
                                height: $feedHeight).frame(height: feedHeight, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         }
-        .navigationBarTitle(title)
+        .navigationBarTitle(title, displayMode: .inline)
     }
 }
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView(title: "ListView")
+        ClassicList(title: "List")
     }
 }

@@ -1,5 +1,5 @@
 //
-//  LazyVStackView.swift
+//  ClassicLazyVStack.swift
 //  TaboolaSwiftUI
 //
 //  Copyright © 2022 Taboola. All rights reserved.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LazyVStackView: View {
+struct ClassicLazyVStack: View {
 
     let title: String
     let pageWrapper = ClassicPageWrapper(pageType: Constants.article,
@@ -31,12 +31,12 @@ struct LazyVStackView: View {
                                    height: $feedHeight).frame(height: feedHeight)
             }
         }
-        .navigationBarTitle(title)
+        .navigationBarTitle(title, displayMode: .inline)
     }
 }
 
 struct LazyVStackView_Previews: PreviewProvider {
     static var previews: some View {
-        LazyVStackView(title: "LazyVStackView")
+        ClassicLazyVStack(title: "LazyVStack")
     }
 }

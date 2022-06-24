@@ -11,20 +11,34 @@ import TaboolaSDK
 @main
 struct TaboolaSwiftUIApp: App {
     
+    private let factory = NativeViewModelFactory()
+    
     init() {
         setupTaboola()
     }
     
     var body: some Scene {
         WindowGroup {
-            RootView()
+            NavigationView {
+                VStack(spacing: 24) {
+                    NavigationLink("Classic") {
+                        ClassicRootView()
+                    }
+                    NavigationLink("Native") {
+                        NativeRootView(factory: factory)
+                    }
+                }
+                .navigationTitle("SwiftUI Examples")
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
 
 extension TaboolaSwiftUIApp {
     func setupTaboola() {
-        let publisherInfo = TBLPublisherInfo.init(publisherName: "sdk-tester-rnd")
+        let publisherInfo = TBLPublisherInfo(publisherName: Constants.publisherName)
+        publisherInfo.apiKey = Constants.apiKey
         Taboola.initWith(publisherInfo)
         Taboola.setLogLevel(.debug)
     }

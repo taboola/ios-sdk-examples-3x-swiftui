@@ -43,7 +43,6 @@ struct ClassicUnitSwiftUI: UIViewRepresentable {
     }
 }
 
-@available(iOS 13.0, *)
 class Coordinator: NSObject, ClassicPageWrapperDelegate, ClassicUnitProvidable {
     
     var unit: ClassicUnitSwiftUI

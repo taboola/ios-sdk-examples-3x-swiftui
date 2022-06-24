@@ -1,5 +1,5 @@
 //
-//  LazyVGridView.swift
+//  ClassicLazyVGrid.swift
 //  TaboolaSwiftUI
 //
 //  Copyright © 2022 Taboola. All rights reserved.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LazyVGridView: View {
+struct ClassicLazyVGrid: View {
 
     let colors: [Color] = [.red, .green, .yellow, .blue]
     var columns: [GridItem] = Array(repeating: .init(.flexible(), alignment: .center), count: 1)
@@ -51,6 +51,6 @@ struct LazyVGridView: View {
 
 struct LazyVGridView_Previews: PreviewProvider {
     static var previews: some View {
-        LazyVGridView(title: "LazyVGridView")
+        ClassicLazyVGrid(title: "LazyVGrid")
     }
 }
