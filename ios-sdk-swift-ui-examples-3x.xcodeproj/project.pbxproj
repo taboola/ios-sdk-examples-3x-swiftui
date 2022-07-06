@@ -26,6 +26,12 @@
 		D80E14D0283B8C8E0014FD09 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CC283B8C8E0014FD09 /* LazyView.swift */; };
 		D80E14D1283B8C8E0014FD09 /* WeakArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */; };
 		D88DCBFF28461E2B00C97E05 /* TaboolaSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D88DCBFE28461E2B00C97E05 /* TaboolaSDK */; };
+		D8913E2828759950004CD15E /* SampleHTMLPage.html in Resources */ = {isa = PBXBuildFile; fileRef = D8913E2728759950004CD15E /* SampleHTMLPage.html */; };
+		D8913E2F28759A14004CD15E /* WebRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2928759A14004CD15E /* WebRootView.swift */; };
+		D8913E3028759A14004CD15E /* WebPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2A28759A14004CD15E /* WebPageView.swift */; };
+		D8913E3128759A14004CD15E /* WebUnitSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2C28759A14004CD15E /* WebUnitSwiftUI.swift */; };
+		D8913E3228759A14004CD15E /* WebPageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2D28759A14004CD15E /* WebPageWrapper.swift */; };
+		D8913E3328759A14004CD15E /* WebVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2E28759A14004CD15E /* WebVStack.swift */; };
 		D897072B2865B34C0001B66B /* NativeLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707252865B34C0001B66B /* NativeLazyVGrid.swift */; };
 		D897072C2865B34C0001B66B /* NativeLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707262865B34C0001B66B /* NativeLazyVStack.swift */; };
 		D897072D2865B34C0001B66B /* NativePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707272865B34C0001B66B /* NativePageView.swift */; };
@@ -58,6 +64,12 @@
 		D80E14CB283B8C8E0014FD09 /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		D80E14CC283B8C8E0014FD09 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakArrayWrapper.swift; sourceTree = "<group>"; };
+		D8913E2728759950004CD15E /* SampleHTMLPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SampleHTMLPage.html; sourceTree = "<group>"; };
+		D8913E2928759A14004CD15E /* WebRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRootView.swift; sourceTree = "<group>"; };
+		D8913E2A28759A14004CD15E /* WebPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageView.swift; sourceTree = "<group>"; };
+		D8913E2C28759A14004CD15E /* WebUnitSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebUnitSwiftUI.swift; sourceTree = "<group>"; };
+		D8913E2D28759A14004CD15E /* WebPageWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageWrapper.swift; sourceTree = "<group>"; };
+		D8913E2E28759A14004CD15E /* WebVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVStack.swift; sourceTree = "<group>"; };
 		D89707252865B34C0001B66B /* NativeLazyVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeLazyVGrid.swift; sourceTree = "<group>"; };
 		D89707262865B34C0001B66B /* NativeLazyVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeLazyVStack.swift; sourceTree = "<group>"; };
 		D89707272865B34C0001B66B /* NativePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativePageView.swift; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D80E14A3283B8BD40014FD09 /* TaboolaSwiftUIApp.swift */,
+				D8913E2628759058004CD15E /* Web */,
 				D89707222865AF360001B66B /* Classic */,
 				D89707232865AF3C0001B66B /* Native */,
 				D80E14A9283B8BD50014FD09 /* Preview Content */,
@@ -152,6 +165,35 @@
 				D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D8913E2628759058004CD15E /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				D8913E2728759950004CD15E /* SampleHTMLPage.html */,
+				D8913E3428759E8F004CD15E /* Views */,
+				D8913E2B28759A14004CD15E /* Adaptors */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		D8913E2B28759A14004CD15E /* Adaptors */ = {
+			isa = PBXGroup;
+			children = (
+				D8913E2C28759A14004CD15E /* WebUnitSwiftUI.swift */,
+				D8913E2D28759A14004CD15E /* WebPageWrapper.swift */,
+			);
+			path = Adaptors;
+			sourceTree = "<group>";
+		};
+		D8913E3428759E8F004CD15E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8913E2928759A14004CD15E /* WebRootView.swift */,
+				D8913E2E28759A14004CD15E /* WebVStack.swift */,
+				D8913E2A28759A14004CD15E /* WebPageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D89707222865AF360001B66B /* Classic */ = {
@@ -278,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80E14AB283B8BD50014FD09 /* Preview Assets.xcassets in Resources */,
+				D8913E2828759950004CD15E /* SampleHTMLPage.html in Resources */,
 				D80E14A8283B8BD50014FD09 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,20 +338,25 @@
 				D89707342865B4660001B66B /* NativeViewModelFactory.swift in Sources */,
 				D80E14BE283B8C680014FD09 /* ClassicTabView.swift in Sources */,
 				D80E14D0283B8C8E0014FD09 /* LazyView.swift in Sources */,
+				D8913E3328759A14004CD15E /* WebVStack.swift in Sources */,
+				D8913E2F28759A14004CD15E /* WebRootView.swift in Sources */,
 				D80E14C0283B8C680014FD09 /* ClassicScrollView.swift in Sources */,
 				D80E14BD283B8C680014FD09 /* ClassicRootView.swift in Sources */,
 				D80E14BB283B8C680014FD09 /* ClassicLazyVStack.swift in Sources */,
+				D8913E3028759A14004CD15E /* WebPageView.swift in Sources */,
 				D80E14BF283B8C680014FD09 /* ClassicLazyVGrid.swift in Sources */,
 				D80E14C3283B8C680014FD09 /* ClassicPageView.swift in Sources */,
 				D89707352865B4660001B66B /* NativeViewModel.swift in Sources */,
 				D80E14D1283B8C8E0014FD09 /* WeakArrayWrapper.swift in Sources */,
 				D89707382865B4D30001B66B /* NativeItem+Identifiable.swift in Sources */,
+				D8913E3128759A14004CD15E /* WebUnitSwiftUI.swift in Sources */,
 				D80E14A4283B8BD40014FD09 /* TaboolaSwiftUIApp.swift in Sources */,
 				D80E14C8283B8C810014FD09 /* ClassicUnitSwiftUI.swift in Sources */,
 				D897073B2865B64B0001B66B /* NativeUnitSwiftUI.swift in Sources */,
 				D80E14C2283B8C680014FD09 /* ClassicVStack.swift in Sources */,
 				D897072C2865B34C0001B66B /* NativeLazyVStack.swift in Sources */,
 				D80E14C1283B8C680014FD09 /* LoremText.swift in Sources */,
+				D8913E3228759A14004CD15E /* WebPageWrapper.swift in Sources */,
 				D897072B2865B34C0001B66B /* NativeLazyVGrid.swift in Sources */,
 				D80E14CF283B8C8E0014FD09 /* Constans.swift in Sources */,
 				D897072E2865B34C0001B66B /* NativeRootView.swift in Sources */,

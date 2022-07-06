@@ -27,6 +27,9 @@ struct TaboolaSwiftUIApp: App {
                     NavigationLink("Native") {
                         NativeRootView(factory: factory)
                     }
+                    NavigationLink("Web") {
+                        WebRootView()
+                    }
                 }
                 .navigationTitle("SwiftUI Examples")
             }
