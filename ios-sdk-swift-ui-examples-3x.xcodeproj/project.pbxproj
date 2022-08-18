@@ -20,16 +20,11 @@
 		D80E14C2283B8C680014FD09 /* ClassicVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14B9283B8C680014FD09 /* ClassicVStack.swift */; };
 		D80E14C3283B8C680014FD09 /* ClassicPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14BA283B8C680014FD09 /* ClassicPageView.swift */; };
 		D80E14C7283B8C810014FD09 /* ClassicPageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14C5283B8C810014FD09 /* ClassicPageWrapper.swift */; };
-		D80E14C8283B8C810014FD09 /* ClassicUnitSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14C6283B8C810014FD09 /* ClassicUnitSwiftUI.swift */; };
-		D80E14CE283B8C8E0014FD09 /* ReusableViewsQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CA283B8C8E0014FD09 /* ReusableViewsQueue.swift */; };
 		D80E14CF283B8C8E0014FD09 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CB283B8C8E0014FD09 /* Constans.swift */; };
-		D80E14D0283B8C8E0014FD09 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CC283B8C8E0014FD09 /* LazyView.swift */; };
-		D80E14D1283B8C8E0014FD09 /* WeakArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */; };
-		D88DCBFF28461E2B00C97E05 /* TaboolaSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D88DCBFE28461E2B00C97E05 /* TaboolaSDK */; };
+		D870D29A28AF9B8800FECC68 /* TaboolaSDK-SwiftUI-Umbrella in Frameworks */ = {isa = PBXBuildFile; productRef = D870D29928AF9B8800FECC68 /* TaboolaSDK-SwiftUI-Umbrella */; };
 		D8913E2828759950004CD15E /* SampleHTMLPage.html in Resources */ = {isa = PBXBuildFile; fileRef = D8913E2728759950004CD15E /* SampleHTMLPage.html */; };
 		D8913E2F28759A14004CD15E /* WebRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2928759A14004CD15E /* WebRootView.swift */; };
 		D8913E3028759A14004CD15E /* WebPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2A28759A14004CD15E /* WebPageView.swift */; };
-		D8913E3128759A14004CD15E /* WebUnitSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2C28759A14004CD15E /* WebUnitSwiftUI.swift */; };
 		D8913E3228759A14004CD15E /* WebPageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2D28759A14004CD15E /* WebPageWrapper.swift */; };
 		D8913E3328759A14004CD15E /* WebVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8913E2E28759A14004CD15E /* WebVStack.swift */; };
 		D897072B2865B34C0001B66B /* NativeLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707252865B34C0001B66B /* NativeLazyVGrid.swift */; };
@@ -40,8 +35,6 @@
 		D89707302865B34C0001B66B /* NativeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897072A2865B34C0001B66B /* NativeContentView.swift */; };
 		D89707342865B4660001B66B /* NativeViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707322865B4660001B66B /* NativeViewModelFactory.swift */; };
 		D89707352865B4660001B66B /* NativeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707332865B4660001B66B /* NativeViewModel.swift */; };
-		D89707382865B4D30001B66B /* NativeItem+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89707372865B4D30001B66B /* NativeItem+Identifiable.swift */; };
-		D897073B2865B64B0001B66B /* NativeUnitSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897073A2865B64B0001B66B /* NativeUnitSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,15 +52,10 @@
 		D80E14B9283B8C680014FD09 /* ClassicVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicVStack.swift; sourceTree = "<group>"; };
 		D80E14BA283B8C680014FD09 /* ClassicPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicPageView.swift; sourceTree = "<group>"; };
 		D80E14C5283B8C810014FD09 /* ClassicPageWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicPageWrapper.swift; sourceTree = "<group>"; };
-		D80E14C6283B8C810014FD09 /* ClassicUnitSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicUnitSwiftUI.swift; sourceTree = "<group>"; };
-		D80E14CA283B8C8E0014FD09 /* ReusableViewsQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewsQueue.swift; sourceTree = "<group>"; };
 		D80E14CB283B8C8E0014FD09 /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
-		D80E14CC283B8C8E0014FD09 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
-		D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakArrayWrapper.swift; sourceTree = "<group>"; };
 		D8913E2728759950004CD15E /* SampleHTMLPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SampleHTMLPage.html; sourceTree = "<group>"; };
 		D8913E2928759A14004CD15E /* WebRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRootView.swift; sourceTree = "<group>"; };
 		D8913E2A28759A14004CD15E /* WebPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageView.swift; sourceTree = "<group>"; };
-		D8913E2C28759A14004CD15E /* WebUnitSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebUnitSwiftUI.swift; sourceTree = "<group>"; };
 		D8913E2D28759A14004CD15E /* WebPageWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageWrapper.swift; sourceTree = "<group>"; };
 		D8913E2E28759A14004CD15E /* WebVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVStack.swift; sourceTree = "<group>"; };
 		D89707252865B34C0001B66B /* NativeLazyVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeLazyVGrid.swift; sourceTree = "<group>"; };
@@ -78,8 +66,6 @@
 		D897072A2865B34C0001B66B /* NativeContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeContentView.swift; sourceTree = "<group>"; };
 		D89707322865B4660001B66B /* NativeViewModelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeViewModelFactory.swift; sourceTree = "<group>"; };
 		D89707332865B4660001B66B /* NativeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeViewModel.swift; sourceTree = "<group>"; };
-		D89707372865B4D30001B66B /* NativeItem+Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NativeItem+Identifiable.swift"; sourceTree = "<group>"; };
-		D897073A2865B64B0001B66B /* NativeUnitSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeUnitSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88DCBFF28461E2B00C97E05 /* TaboolaSDK in Frameworks */,
+				D870D29A28AF9B8800FECC68 /* TaboolaSDK-SwiftUI-Umbrella in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +85,7 @@
 			children = (
 				D80E14A2283B8BD40014FD09 /* ios-sdk-swift-ui-examples-3x */,
 				D80E14A1283B8BD40014FD09 /* Products */,
+				D8B06D9A2892C4F500CC3A9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +104,7 @@
 				D8913E2628759058004CD15E /* Web */,
 				D89707222865AF360001B66B /* Classic */,
 				D89707232865AF3C0001B66B /* Native */,
+				D80E14C9283B8C8E0014FD09 /* Helpers */,
 				D80E14A9283B8BD50014FD09 /* Preview Content */,
 				D80E14A7283B8BD50014FD09 /* Assets.xcassets */,
 			);
@@ -150,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				D80E14C5283B8C810014FD09 /* ClassicPageWrapper.swift */,
-				D80E14C6283B8C810014FD09 /* ClassicUnitSwiftUI.swift */,
 			);
 			path = Adaptors;
 			sourceTree = "<group>";
@@ -159,10 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				D80E14B8283B8C680014FD09 /* LoremText.swift */,
-				D80E14CA283B8C8E0014FD09 /* ReusableViewsQueue.swift */,
 				D80E14CB283B8C8E0014FD09 /* Constans.swift */,
-				D80E14CC283B8C8E0014FD09 /* LazyView.swift */,
-				D80E14CD283B8C8E0014FD09 /* WeakArrayWrapper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -180,7 +164,6 @@
 		D8913E2B28759A14004CD15E /* Adaptors */ = {
 			isa = PBXGroup;
 			children = (
-				D8913E2C28759A14004CD15E /* WebUnitSwiftUI.swift */,
 				D8913E2D28759A14004CD15E /* WebPageWrapper.swift */,
 			);
 			path = Adaptors;
@@ -201,7 +184,6 @@
 			children = (
 				D80E14B1283B8C680014FD09 /* Views */,
 				D80E14C4283B8C810014FD09 /* Adaptors */,
-				D80E14C9283B8C8E0014FD09 /* Helpers */,
 			);
 			path = Classic;
 			sourceTree = "<group>";
@@ -211,8 +193,6 @@
 			children = (
 				D89707242865B2CA0001B66B /* Views */,
 				D89707312865B45A0001B66B /* ViewModel */,
-				D89707392865B6420001B66B /* Adaptors */,
-				D89707362865B4C00001B66B /* Helpers */,
 			);
 			path = Native;
 			sourceTree = "<group>";
@@ -239,20 +219,11 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D89707362865B4C00001B66B /* Helpers */ = {
+		D8B06D9A2892C4F500CC3A9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D89707372865B4D30001B66B /* NativeItem+Identifiable.swift */,
 			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		D89707392865B6420001B66B /* Adaptors */ = {
-			isa = PBXGroup;
-			children = (
-				D897073A2865B64B0001B66B /* NativeUnitSwiftUI.swift */,
-			);
-			path = Adaptors;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +243,7 @@
 			);
 			name = "ios-sdk-swift-ui-examples-3x";
 			packageProductDependencies = (
-				D88DCBFE28461E2B00C97E05 /* TaboolaSDK */,
+				D870D29928AF9B8800FECC68 /* TaboolaSDK-SwiftUI-Umbrella */,
 			);
 			productName = "ios-sdk-swift-ui-examples-3x";
 			productReference = D80E14A0283B8BD40014FD09 /* ios-sdk-swift-ui-examples-3x.app */;
@@ -303,7 +274,7 @@
 			);
 			mainGroup = D80E1497283B8BD40014FD09;
 			packageReferences = (
-				D88DCBFD28461E2B00C97E05 /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */,
+				D870D29828AF9B8800FECC68 /* XCRemoteSwiftPackageReference "taboola-swift-ui-umbrella" */,
 			);
 			productRefGroup = D80E14A1283B8BD40014FD09 /* Products */;
 			projectDirPath = "";
@@ -333,11 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D897072F2865B34C0001B66B /* NativeTabView.swift in Sources */,
-				D80E14CE283B8C8E0014FD09 /* ReusableViewsQueue.swift in Sources */,
 				D80E14C7283B8C810014FD09 /* ClassicPageWrapper.swift in Sources */,
 				D89707342865B4660001B66B /* NativeViewModelFactory.swift in Sources */,
 				D80E14BE283B8C680014FD09 /* ClassicTabView.swift in Sources */,
-				D80E14D0283B8C8E0014FD09 /* LazyView.swift in Sources */,
 				D8913E3328759A14004CD15E /* WebVStack.swift in Sources */,
 				D8913E2F28759A14004CD15E /* WebRootView.swift in Sources */,
 				D80E14C0283B8C680014FD09 /* ClassicScrollView.swift in Sources */,
@@ -347,12 +316,7 @@
 				D80E14BF283B8C680014FD09 /* ClassicLazyVGrid.swift in Sources */,
 				D80E14C3283B8C680014FD09 /* ClassicPageView.swift in Sources */,
 				D89707352865B4660001B66B /* NativeViewModel.swift in Sources */,
-				D80E14D1283B8C8E0014FD09 /* WeakArrayWrapper.swift in Sources */,
-				D89707382865B4D30001B66B /* NativeItem+Identifiable.swift in Sources */,
-				D8913E3128759A14004CD15E /* WebUnitSwiftUI.swift in Sources */,
 				D80E14A4283B8BD40014FD09 /* TaboolaSwiftUIApp.swift in Sources */,
-				D80E14C8283B8C810014FD09 /* ClassicUnitSwiftUI.swift in Sources */,
-				D897073B2865B64B0001B66B /* NativeUnitSwiftUI.swift in Sources */,
 				D80E14C2283B8C680014FD09 /* ClassicVStack.swift in Sources */,
 				D897072C2865B34C0001B66B /* NativeLazyVStack.swift in Sources */,
 				D80E14C1283B8C680014FD09 /* LoremText.swift in Sources */,
@@ -490,7 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-sdk-swift-ui-examples-3x/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = P4YBSJEM3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -520,7 +484,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-sdk-swift-ui-examples-3x/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = P4YBSJEM3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -567,21 +531,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D88DCBFD28461E2B00C97E05 /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */ = {
+		D870D29828AF9B8800FECC68 /* XCRemoteSwiftPackageReference "taboola-swift-ui-umbrella" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/taboola/taboola-spm-ios-sdk";
+			repositoryURL = "https://github.com/taboola/taboola-swift-ui-umbrella";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.6.3;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D88DCBFE28461E2B00C97E05 /* TaboolaSDK */ = {
+		D870D29928AF9B8800FECC68 /* TaboolaSDK-SwiftUI-Umbrella */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D88DCBFD28461E2B00C97E05 /* XCRemoteSwiftPackageReference "taboola-spm-ios-sdk" */;
-			productName = TaboolaSDK;
+			package = D870D29828AF9B8800FECC68 /* XCRemoteSwiftPackageReference "taboola-swift-ui-umbrella" */;
+			productName = "TaboolaSDK-SwiftUI-Umbrella";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

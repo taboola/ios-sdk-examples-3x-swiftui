@@ -7,8 +7,9 @@
 
 import SwiftUI
 import TaboolaSDK
+import TaboolaSDK_SwiftUI_Umbrella
 
-final class NativeContentView: UIView {
+final class NativeContentView: UIView, NativeViewable {
     
     private enum Constant {
         static let offset: CGFloat = 8

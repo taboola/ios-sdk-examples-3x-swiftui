@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TaboolaSDK_SwiftUI_Umbrella
 
 struct NativeLazyVGrid<ViewModel: NativeViewModelProtocol>: View {
     
@@ -22,7 +23,7 @@ struct NativeLazyVGrid<ViewModel: NativeViewModelProtocol>: View {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 8) {
                     ForEach(viewModel.items) { item in
-                        NativeUnitSwiftUI(item, targetWidth: geomerty.size.width / 2)
+                        NativeUnitSwiftUI<NativeContentView>(item, targetWidth: geomerty.size.width / 2)
                             .onAppear {
                                 viewModel.onAppear(item)
                             }

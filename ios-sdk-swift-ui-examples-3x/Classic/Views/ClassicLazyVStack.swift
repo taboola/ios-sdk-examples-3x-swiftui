@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TaboolaSDK_SwiftUI_Umbrella
 
 struct ClassicLazyVStack: View {
 

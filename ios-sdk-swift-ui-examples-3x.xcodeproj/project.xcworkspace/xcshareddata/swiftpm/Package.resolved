@@ -1,11 +1,11 @@
 {
   "pins" : [
     {
-      "identity" : "taboola-spm-ios-sdk",
+      "identity" : "taboola-swift-ui-umbrella",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/taboola/taboola-spm-ios-sdk",
+      "location" : "https://github.com/taboola/taboola-swift-ui-umbrella",
       "state" : {
-        "revision" : "0cb094870ad21891a0058944152935282e232a5d",
+        "revision" : "ed84bb56c3d4ef0ef59f7b82a2dce921b037a822",
         "version" : "3.7.0"
       }
     }

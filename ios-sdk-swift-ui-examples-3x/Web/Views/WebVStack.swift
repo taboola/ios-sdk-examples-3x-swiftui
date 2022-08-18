@@ -6,28 +6,34 @@
 //
 
 import SwiftUI
+import TaboolaSDK_SwiftUI_Umbrella
 
 struct WebVStack: View {
     
     init(title: String, embeddedInContainer: Bool = false) {
         self.title = title
         self.embeddedInContainer = embeddedInContainer
-        pageWrapper = WebPageWrapper()
     }
     
     private let title: String
     private let embeddedInContainer: Bool
-    private let pageWrapper: WebPageWrapper
+    private let pageWrapper = WebPageWrapper()
         
     var body: some View {
         VStack {
-            WebUnitSwiftUI(pageWrapper: pageWrapper)
-            Button("Fetch All") {
-                pageWrapper.page.fetchAllUnitsContent()
-            }
-            
-            if embeddedInContainer {
-                Spacer(minLength: 40)
+            if let baseURL = URL(string: "https://cdn.taboola.com/mobile-sdk/init/") {
+                WebUnitSwiftUI(pageWrapper: pageWrapper,
+                               source: "SampleHTMLPage",
+                               baseURL: baseURL)
+                Button("Fetch All") {
+                    pageWrapper.page.fetchAllUnitsContent()
+                }
+                
+                if embeddedInContainer {
+                    Spacer(minLength: 40)
+                }
+            } else {
+                Text("No content to display. Please check your URL!")
             }
         }
         .navigationBarTitle(title)
