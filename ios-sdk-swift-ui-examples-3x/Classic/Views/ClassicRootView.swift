@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TaboolaSDK_SwiftUI
 
 struct ClassicRootView: View {
     var body: some View {

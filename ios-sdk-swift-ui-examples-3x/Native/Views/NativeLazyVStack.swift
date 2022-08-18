@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TaboolaSDK_SwiftUI
 
 struct NativeLazyVStack<ViewModel: NativeViewModelProtocol>: View {
     
@@ -17,7 +18,7 @@ struct NativeLazyVStack<ViewModel: NativeViewModelProtocol>: View {
             ScrollView {
                 LazyVStack {
                     ForEach(viewModel.items) { item in
-                        NativeUnitSwiftUI(item, targetWidth: geometry.size.width)
+                        NativeUnitSwiftUI<NativeContentView>(item, targetWidth: geometry.size.width)
                             .onAppear {
                                 viewModel.onAppear(item)
                             }

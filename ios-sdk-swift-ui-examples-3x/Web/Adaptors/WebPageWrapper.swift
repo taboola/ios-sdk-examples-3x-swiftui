@@ -7,8 +7,9 @@
 
 import Foundation
 import TaboolaSDK
+import TaboolaSDK_SwiftUI
 
-class WebPageWrapper: NSObject {
+class WebPageWrapper: NSObject, WebPageWrappable {
     
     var page: TBLWebPage!
     

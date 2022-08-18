@@ -6,13 +6,14 @@
 //
 
 import TaboolaSDK
+import TaboolaSDK_SwiftUI
 
 protocol ClassicPageWrapperDelegate: AnyObject {
     func didLoadWithHeight(height: CGFloat)
 }
 
-class ClassicPageWrapper: NSObject, TBLClassicPageDelegate {
-        
+class ClassicPageWrapper: NSObject, TBLClassicPageDelegate, СlassicPageWrappable {    
+    
     var page: TBLClassicPage!
     @Weak var delegates: [Coordinator]
     
