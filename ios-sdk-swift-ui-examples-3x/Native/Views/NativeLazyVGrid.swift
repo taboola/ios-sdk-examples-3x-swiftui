@@ -19,11 +19,11 @@ struct NativeLazyVGrid<ViewModel: NativeViewModelProtocol>: View {
     ]
     
     var body: some View {
-        GeometryReader { geomerty in
+        GeometryReader { geometry in
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 8) {
                     ForEach(viewModel.items) { item in
-                        NativeUnitSwiftUI<NativeContentView>(item, targetWidth: geomerty.size.width / 2)
+                        NativeUnitSwiftUI<NativeContentView>(item, targetWidth: geometry.size.width / 2)
                             .onAppear {
                                 viewModel.onAppear(item)
                             }

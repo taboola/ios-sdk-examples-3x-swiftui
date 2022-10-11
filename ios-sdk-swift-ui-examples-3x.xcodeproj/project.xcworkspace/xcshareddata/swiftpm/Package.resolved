@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/taboola/taboola-swift-ui-umbrella",
       "state" : {
-        "revision" : "ed84bb56c3d4ef0ef59f7b82a2dce921b037a822",
-        "version" : "3.7.0"
+        "revision" : "0a1946af2fc681e9042f18a429ad3b756c55450d",
+        "version" : "3.8.3"
       }
     }
   ],
