@@ -38,12 +38,10 @@ struct taboolaFeed: View {
     @State var feedHeight: CGFloat = 0
     
     var body: some View {
-        ScrollView {
             ClassicUnitSwiftUI(pageWrapper: pageWrapper,
                                placement: Constants.feedPlacement,
                                mode: Constants.mode,
                                height: $feedHeight).frame(height: feedHeight, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        }
     }
 }
 
@@ -53,12 +51,10 @@ struct taboolaWidget: View {
     @State var topHeight: CGFloat = 0
     
     var body: some View {
-        ScrollView {
             ClassicUnitSwiftUI(pageWrapper: pageWrapper,
                                placement: Constants.widgetPlacement,
                                mode: Constants.mode,
                                height: $topHeight).frame(height: topHeight, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        }
     }
     
 }
